@@ -27,7 +27,7 @@ Custom data loaders are defined to load images and corresponding captions from t
 
 ## 4. Neural Network:
 The script defines neural network architectures for both images and text:
-+ Separate neural network classes (`NN`` for images and NN_text for text`) are created using PyTorch's nn.Module class.
++ Separate neural network classes (`NN for images and NN_text for text`) are created using PyTorch's nn.Module class.
 + These networks consist of linear layers followed by activation functions like ReLU.
 + The forward method defines the forward pass of the network, specifying how input data flows through the layers.
 
